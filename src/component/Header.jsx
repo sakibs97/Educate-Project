@@ -20,7 +20,7 @@ const Header = () => {
 
                 <nav className="">
                     <div className="container bg-4F5DE4 flex flex-wrap items-center justify-between py-4">
-                        <a href="https://flowbite.com/" className="">
+                        <a href="https://educate-project.vercel.app/" className="">
                             <img src={logo} className="lg:h-8 sm:h-7 h-6" alt="Logo" />
                         </a>
                         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -64,7 +64,6 @@ const Header = () => {
                                 <li>
                                     <a href="#" className="block py-2 px-3 md:p-0">Shop</a>
                                 </li>
-
                             </ul>
                         </div>
                     </div>

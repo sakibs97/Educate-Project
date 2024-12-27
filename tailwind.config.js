@@ -10,6 +10,10 @@ export default {
         '4F5DE4': '#4F5DE4',
         'F57005': '#F57005',
       },
+      backgroundImage: {
+        'vector': "url('./src/assets/vector.png')",
+        'vector-left': "url('./src/assets/VectorL.png')",
+      },
     },
     fontFamily: {
       'urbanist': ['Urbanist', 'serif']      
