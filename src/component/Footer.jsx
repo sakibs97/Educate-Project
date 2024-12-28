@@ -7,7 +7,7 @@ import { TfiEmail } from "react-icons/tfi";
 const Footer = () => {
     return (
         <footer className="bg-[#2A254D] font-urbanist">
-            <div className="bg-[url('./src/assets/footer.png')] bg-no-repeat bg-center bg-cover">
+            <div className="bg-[url('././assets/footer.png')] bg-no-repeat bg-center bg-cover">
                 <div className="container space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                         <div>
