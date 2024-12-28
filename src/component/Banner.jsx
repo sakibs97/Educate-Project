@@ -1,12 +1,10 @@
-import Header from "./Header"
 import { FaCirclePlay } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
     return (
-        <section className="bg-4F5DE4 relative after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[url('././assets/vector.png')] after:bg-no-repeat after:bg-center pb-[132px] z-50">
-            <Header />
-            <div className="md:mt-[50px] md:pt-[35px] container flex flex-wrap justify-between z-40 relative after:absolute after:top-0 after:left-0 after:w-full after:h-[701px] after:bg-[url('././assets/vectorL.png')] after:bg-no-repeat after:bg-center after:bg-cover">
+        <section className="bg-4F5DE4 relative after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[url('././assets/vector.png')] after:bg-no-repeat after:bg-center pb-[132px] pt-[80px] z-30">
+            <div className="md:pt-[60px] container flex flex-wrap justify-between z-50 relative after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[url('././assets/vectorL.png')] after:bg-no-repeat after:bg-center after:bg-cover">
                 <div className="text-white font-urbanist z-20 lg:mt-[50px]">
                     <h1 className="font-extrabold md:text-[70px] sm:text-[50px] text-[60px] md:leading-[85px]">
                         A Better <br></br> Learning Journey <br></br> Future Start Here
