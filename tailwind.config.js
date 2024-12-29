@@ -10,6 +10,7 @@ export default {
         '4F5DE4': '#4F5DE4',
         'F57005': '#F57005',
         '152B4A': '#152B4A',
+        '2A254D': '#2A254D',
       },
       backgroundImage: {
         'vector': "url('./src/assets/vector.png')",
@@ -18,6 +19,7 @@ export default {
         'about': "url('./src/assets/about/about.png')",
         'Texture': "url('./src/assets/favorite/Texture.png')",
         'fav-bg': "url('./src/assets/favorite/fav-bg.png')",
+        'feature-after-bg': "url('./src/assets/featured/feature-after-bg.png')",
       },
     },
     fontFamily: {

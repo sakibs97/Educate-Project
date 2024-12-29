@@ -76,7 +76,7 @@ const About = () => {
                                     </div>
                                     <img src={shadow} alt="shadow" className='absolute right-0 top-[10px]' />
                                     <div className="absolute left-[-40px] top-[50%] translate-y-[-50%]">
-                                        <div className='py-[19px] px-[22px] bg-F57005 rounded-full relative'>
+                                        <div className='py-[19px] px-[22px] bg-F57005 rounded-full relative overflow-hidden'>
                                             <span className="absolute bottom-0 right-0 w-[33px] h-20 -mb-5 -mr-1 transition-all duration-300 ease-out transform rotate-[40deg] translate-x-1 bg-[#F6F5F5] opacity-35 rounded-3xl group-hover:translate-x-0"></span>
                                             <img src={support} alt="support" />
                                         </div>

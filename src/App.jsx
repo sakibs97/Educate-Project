@@ -3,6 +3,7 @@ import Banner from "./component/Banner"
 import Footer from "./component/Footer"
 import About from "./component/About"
 import Favorite from "./component/Favorite"
+import Featured from "./component/Featured"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <About />
       <Favorite />
+      <Featured />
       <Footer />
     </>
   )

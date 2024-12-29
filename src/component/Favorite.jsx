@@ -13,8 +13,6 @@ const Favorite = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-        arrow: false,
-        className: 'theClass',
         responsive: [
             {
                 breakpoint: 1024,
