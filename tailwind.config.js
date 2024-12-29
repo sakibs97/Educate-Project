@@ -14,6 +14,7 @@ export default {
         'vector': "url('./src/assets/vector.png')",
         'VectorL': "url('./src/assets/VectorL.png')",
         'footer': "url('./src/assets/footer.png')",
+        'about': "url('./src/assets/about/about.png')",
       },
     },
     fontFamily: {
