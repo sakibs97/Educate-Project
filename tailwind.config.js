@@ -9,12 +9,15 @@ export default {
       colors: {
         '4F5DE4': '#4F5DE4',
         'F57005': '#F57005',
+        '152B4A': '#152B4A',
       },
       backgroundImage: {
         'vector': "url('./src/assets/vector.png')",
         'VectorL': "url('./src/assets/VectorL.png')",
         'footer': "url('./src/assets/footer.png')",
         'about': "url('./src/assets/about/about.png')",
+        'Texture': "url('./src/assets/favorite/Texture.png')",
+        'fav-bg': "url('./src/assets/favorite/fav-bg.png')",
       },
     },
     fontFamily: {
