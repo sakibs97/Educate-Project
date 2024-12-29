@@ -71,7 +71,7 @@ const Favorite = () => {
 
 
     return (
-        <section className='relative after:absolute after:bg-[url("./src/assets/favorite/fav-bg.png")] after:bg-no-repeat after:bg-center after:bg-cover after:left-0 after:top-0 after:w-full after:h-full md:after:h-[443px] after:-z-10'>
+        <section className='relative after:absolute after:bg-[url("././assets/favorite/fav-bg.png")] after:bg-no-repeat after:bg-center after:bg-cover after:left-0 after:top-0 after:w-full after:h-full md:after:h-[443px] after:-z-10'>
             <div className="container py-[80px]">
                 <div className="text-center pb-[50px]">
                     <p className="font-urbanist font-bold text-[24px] text-4F5DE4 leading-[26px]">Category</p>

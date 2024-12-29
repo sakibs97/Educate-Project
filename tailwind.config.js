@@ -18,7 +18,7 @@ export default {
         'footer': "url('./src/assets/footer.png')",
         'about': "url('./src/assets/about/about.png')",
         'Texture': "url('./src/assets/favorite/Texture.png')",
-        'fav-bg': "url('./src/assets/favorite/fav-bg.png')",
+        'favbg': "url('./src/assets/favorite/fav-bg.png')",
         'feature': "url('./src/assets/featured/feature-after-bg.png')",
       },
     },
