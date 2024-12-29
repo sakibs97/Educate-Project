@@ -62,7 +62,7 @@ const Featured = () => {
 
     return (
         <section className="py-[80px] bg-[#F1F2FD] relative ">
-            <span className="bg-[url('./src/assets/featured/feature-after-bg.png')] bg-no-repeat bg-cover bg-center absolute top-0 left-0 w-full h-full "></span>
+            <span className="bg-[url('././assets/featured/feature-after-bg.png')] bg-no-repeat bg-cover bg-center absolute top-0 left-0 w-full h-full "></span>
             <div className="container">
                 <div className="text-center pb-[50px]">
                     <p className="font-urbanist font-bold text-[24px] text-4F5DE4 leading-[26px]">Best Course</p>

@@ -41,7 +41,7 @@ const About = () => {
     ]
 
     return (
-        <section className='bg-[url("./src/assets/about/about.png")] bg-no-repeat bg-center bg-cover '>
+        <section className='bg-[url("././assets/about/about.png")] bg-no-repeat bg-center bg-cover '>
             <div className="container">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 py-[80px]">
                     {aboutData.map((data, index) => (
