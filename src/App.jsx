@@ -4,6 +4,8 @@ import Footer from "./component/Footer"
 import About from "./component/About"
 import Favorite from "./component/Favorite"
 import Featured from "./component/Featured"
+import FreeAccount from "./component/FreeAccount"
+import Feedback from "./component/Feedback"
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <About />
       <Favorite />
       <Featured />
+      <FreeAccount />
+      <Feedback />
       <Footer />
     </>
   )

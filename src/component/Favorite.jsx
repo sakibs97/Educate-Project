@@ -9,7 +9,7 @@ const Favorite = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -82,9 +82,11 @@ const Favorite = () => {
                 <Slider {...settings}>
                     {favoriteData.map((data, index) => (
                         <div key={index} className="p-[18px]">
-                            <div className="h-[376px] bg-[#2A254D] rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative overflow-hidden group cursor-pointer">
-                                <span className="bg-white h-[300px] w-[450px] absolute bottom-[-110px] left-[-50px] rounded-tr-full rotate-[-50deg]"></span>
-                                <div className="group-hover:absolute group-hover:bottom-[50%] group-hover:left-0 group-hover:translate-y-[50%]  group-hover:w-full group-hover:h-full group-hover:bg-[#1E1F25] duration-500 ease-in-out transition-all">
+                            <div className="h-[376px] bg-[#2A254D] rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative overflow-hidden group cursor-pointer z-30">
+                                <span className="bg-[url('././assets/favorite/Texture.png')] bg-no-repeat bg-cover w-full h-full absolute top-0 right-0 -z-10"></span>
+                                <span className="bg-white h-[300px] w-[450px] absolute bottom-[-110px] left-[-50px] rounded-tr-full rotate-[-50deg] -z-20">
+                                </span>
+                                <div className="group-hover:absolute group-hover:bottom-[50%] group-hover:left-0 group-hover:translate-y-[50%] group-hover:w-full group-hover:h-full group-hover:bg-[#1E1F25] duration-500 ease-in-out transition-all">
                                     <div className="absolute bottom-[50%] left-[50%] translate-y-[50%] translate-x-[-50%] ">
                                         <div className="py-[25px] pr-[22px] pl-[28px] bg-F57005 group-hover:bg-4F5DE4 rounded-full relative overflow-hidden">
                                             <img src={data.img} alt="analysis" />
