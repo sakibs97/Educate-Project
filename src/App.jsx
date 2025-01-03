@@ -2,10 +2,11 @@ import Header from "./component/Header"
 import Banner from "./component/Banner"
 import Footer from "./component/Footer"
 import About from "./component/About"
-import Favorite from "./component/Favorite"
 import Featured from "./component/Featured"
 import FreeAccount from "./component/FreeAccount"
+import Favorite from "./component/Favorite"
 import Feedback from "./component/Feedback"
+import TeamMembers from "./component/TeamMembers"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Featured />
       <FreeAccount />
       <Feedback />
+      <TeamMembers />
       <Footer />
     </>
   )

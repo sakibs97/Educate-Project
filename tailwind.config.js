@@ -23,7 +23,7 @@ export default {
         'free-banner': "url('./src/assets/freeAccount/free-ban.png')",
         'free-shape': "url('./src/assets/freeAccount/Shape.png')",
         'feedback-Shape': "url('./src/assets/feedback/Shape.png')",
-        'feedback-Brush': "url('./src/assets/feedback/Brush.png')",
+        'team-member': "url('./src/assets/team-member/team-banner.png')",
       },
     },
     fontFamily: {
