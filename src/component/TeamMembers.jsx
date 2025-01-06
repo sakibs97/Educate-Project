@@ -18,7 +18,7 @@ const TeamMembers = () => {
     ];
 
     return (
-        <section className="bg-[#F1F2FD] bg-[url('./src/assets/team-member/team-banner.png')] bg-no-repeat bg-cover bg-center">
+        <section className="bg-[#F1F2FD] bg-[url('././assets/team-member/team-banner.png')] bg-no-repeat bg-cover bg-center">
             <div className="container py-[80px] lg:px-[80px] font-urbanist font-normal">
                 <div className="text-center">
                     <p className="font-bold text-[24px] text-4F5DE4">

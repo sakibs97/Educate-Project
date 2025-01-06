@@ -24,6 +24,8 @@ export default {
         'free-shape': "url('./src/assets/freeAccount/Shape.png')",
         'feedback-Shape': "url('./src/assets/feedback/Shape.png')",
         'team-member': "url('./src/assets/team-member/team-banner.png')",
+        'blog-back': "url('./src/assets/blog/01.png')",
+        'CTA': "url('./src/assets/skill-cta/CTA.png')",
       },
     },
     fontFamily: {

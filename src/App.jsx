@@ -7,6 +7,8 @@ import FreeAccount from "./component/FreeAccount"
 import Favorite from "./component/Favorite"
 import Feedback from "./component/Feedback"
 import TeamMembers from "./component/TeamMembers"
+import LatestBlog from "./component/LatestBlog"
+import SkillsCertificate from "./component/SkillsCertificate"
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <FreeAccount />
       <Feedback />
       <TeamMembers />
+      <LatestBlog />
+      <SkillsCertificate />
       <Footer />
     </>
   )
