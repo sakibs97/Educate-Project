@@ -25,7 +25,9 @@ export default {
         'feedback-Shape': "url('./src/assets/feedback/Shape.png')",
         'team-member': "url('./src/assets/team-member/team-banner.png')",
         'blog-back': "url('./src/assets/blog/01.png')",
-        'CTA': "url('./src/assets/skill-cta/CTA.png')",
+        'left': "url('./src/assets/skill-cta/left.png')",
+        'right': "url('./src/assets/skill-cta/right.png')",
+        'three-back': "url('./src/assets/skill-cta/three-back.png')",
       },
     },
     fontFamily: {
