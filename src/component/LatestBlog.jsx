@@ -1,4 +1,4 @@
-import Newsletter from "../assets/blog/newsletter.png";
+import Newsletter from "../assets/blog/Newsletter.png";
 
 const LatestBlog = () => {
 
