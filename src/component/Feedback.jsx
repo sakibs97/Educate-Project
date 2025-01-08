@@ -6,12 +6,10 @@ const CustomPrevArrow = (props) => {
     const { onClick } = props;
     return (
         <div
-            className="custom-arrow custom-prev"
+            className="custom-arrow custom-prev bottom-[-40px] md:bottom-0 right-[100px]"
             onClick={onClick}
             style={{
                 position: "absolute",
-                bottom: "0",
-                right: "80px",
                 transform: "translateY(-50%)",
                 zIndex: 2,
                 color: "#4F5DE4",
@@ -31,12 +29,10 @@ const CustomNextArrow = (props) => {
     const { onClick } = props;
     return (
         <div
-            className="custom-arrow custom-next"
+            className="custom-arrow custom-next bottom-[-40px] md:bottom-0 right-[10px]"
             onClick={onClick}
             style={{
                 position: "absolute",
-                bottom: "0",
-                right: "0px",
                 transform: "translateY(-50%)",
                 zIndex: 2,
                 color: "#4F5DE4",
@@ -64,7 +60,7 @@ const Feedback = () => {
     };
 
     return (
-        <section className="pt-[80px] pb-[220px]">
+        <section className="pt-[80px] lg:pb-[220px] pb-[80px]">
             <div className="container font-urbanist font-normal overflow-visible">
                 <div className="text-center">
                     <p className="font-bold text-[24px] text-4F5DE4">
@@ -75,7 +71,7 @@ const Feedback = () => {
                     </h3>
                 </div>
                 <div className="border-[1px] bg-white rounded-2xl shadow-xl mt-[100px] relative">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 relative">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 relative">
                         <Slider {...settings}>
                             <div className="p-[30px]">
                                 <div className="w-[100px] h-[100px] bg-2A254D rounded-full absolute top-0"></div>
@@ -107,9 +103,9 @@ const Feedback = () => {
                             </div>
                         </Slider>
                     </div>
-                    <div className="bg-[url('././assets/feedback/Shape.png')] bg-cover bg-no-repeat absolute right-0 top-[-35%] w-[610px] h-[562px]">
-                        <div className="w-[470px] h-[470px] bg-2A254D rounded-full mt-[50px] ml-[80px] relative">
-                            <img src={Brush} alt="" className='absolute right-[-13%] top-[-12%]' />
+                    <div className="bg-[url('././assets/feedback/Shape.png')] bg-cover bg-no-repeat lg:absolute right-0 top-[-35%] w-[330px] md:w-[610px] h-[305px] md:h-[562px] mb-[50px] md:mb-0">
+                        <div className="w-[200px] md:w-[470px] h-[200px] md:h-[470px] bg-2A254D rounded-full mt-[50px] md:ml-[80px] mx-auto relative">
+                            <img src={Brush} alt="" className='absolute right-[-13%] w-[50%] top-[-12%]' />
                         </div>
                     </div>
                 </div>

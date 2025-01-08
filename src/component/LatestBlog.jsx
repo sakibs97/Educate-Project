@@ -36,15 +36,15 @@ const LatestBlog = () => {
                         Latest Updates & Articles
                     </h3>
                 </div>
-                <div className="flex justify-center items-center gap-8">
+                <div className="flex flex-wrap justify-center items-center gap-8">
                     <div className="">
                         {blogData.map((blog, index) => (
-                            <div key={index} className="flex items-center my-[36px] shadow-xl rounded-xl h-[400px]">
-                                <div className="bg-2A254D h-full w-[350px] rounded-l-xl"></div>
-                                <div className="w-[450px] py-[35px] px-[30px]">
+                            <div key={index} className="md:flex items-center my-[36px] shadow-xl rounded-xl lg:h-[400px] border">
+                                <div className="bg-2A254D h-[300px] lg:h-full w-[100%] md:w-[250px] lg:w-[350px] rounded-xl lg:rounded-none lg:rounded-l-xl"></div>
+                                <div className="md:w-[450px] py-[35px] px-[30px]">
                                     <span className="py-[7px] px-[10px] bg-4F5DE4 rounded-lg font-semibold text-[14px] text-white leading-[26px]">{blog.category}</span>
-                                    <h3 className="py-[30px] font-bold text-[40px] text-2A254D">{blog.title}</h3>
-                                    <div className="flex items-center justify-between py-[12px] px-[20px] bg-[#F1F2FD] rounded-lg">
+                                    <h3 className="py-[30px] font-bold text-[30px] md:text-[35px] lg:text-[40px] text-2A254D">{blog.title}</h3>
+                                    <div className="flex flex-wrap items-center justify-between py-[12px] px-[20px] bg-[#F1F2FD] rounded-lg">
                                         <div className="flex items-center gap-4">
                                             <div className="w-[44px] h-[44px] bg-2A254D rounded-full">
                                                 <img src="" alt="" />
@@ -54,13 +54,13 @@ const LatestBlog = () => {
                                                 <p className="font-medium text-[12px] text-[#697585] leading-[25px] uppercase">{blog.post}</p>
                                             </div>
                                         </div>
-                                        <p className="font-semibold text-[16px] text-F57005 leading-[26px]">{blog.date}</p>
+                                        <p className="font-semibold text-[16px] text-F57005 leading-[26px] pl-[60px]">{blog.date}</p>
                                     </div>
                                 </div>
                             </div>
                         ))}
                     </div>
-                    <div className="bg-2A254D w-[452px] text-white rounded-xl text-center p-[50px] relative z-50">
+                    <div className="bg-2A254D w-[452px] text-white rounded-xl text-center p-[50px] relative z-50 shadow-xl">
                         <div className="bg-[url('././assets/blog/01.png')] bg-no-repeat bg-bottom absolute bottom-0 left-0 w-full h-full -z-10"></div>
                         <div className="mx-auto py-[120px]">
                             <div className="py-[25px] px-[28px] bg-[rgb(79,93,228,44%)] rounded-full w-[100px] mx-auto">

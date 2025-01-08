@@ -1,31 +1,20 @@
-import Header from "./component/Header"
-import Banner from "./component/Banner"
-import Footer from "./component/Footer"
-import About from "./component/About"
-import Featured from "./component/Featured"
-import FreeAccount from "./component/FreeAccount"
-import Favorite from "./component/Favorite"
-import Feedback from "./component/Feedback"
-import TeamMembers from "./component/TeamMembers"
-import LatestBlog from "./component/LatestBlog"
-import SkillsCertificate from "./component/SkillsCertificate"
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
+import RootLayout from "./component/layout/RootLayout"
+import Home from "./page/Home"
 
+let router = createBrowserRouter(createRoutesFromElements(
+  <>
+    <Route element={<RootLayout />}>
+      <Route index element={<Home />}></Route>
+    </Route>
+  </>
+))
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Banner />
-      <About />
-      <Favorite />
-      <Featured />
-      <FreeAccount />
-      <Feedback />
-      <TeamMembers />
-      <LatestBlog />
-      <SkillsCertificate />
-      <Footer />
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
