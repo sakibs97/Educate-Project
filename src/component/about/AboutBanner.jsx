@@ -1,5 +1,5 @@
 
-import BannerReusable from '../reusable/Bannerreusable'
+import BannerReusable from '../reusable/BannerReusable'
 
 const AboutBanner = () => {
     return (
