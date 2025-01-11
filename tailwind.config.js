@@ -14,6 +14,7 @@ export default {
       },
       backgroundImage: {
         'vector': "url('./src/assets/vector.png')",
+        'All-banner': "url('./src/assets/all-banner.png')",
         'VectorL': "url('./src/assets/VectorL.png')",
         'footer': "url('./src/assets/footer.png')",
         'about': "url('./src/assets/about/about.png')",
